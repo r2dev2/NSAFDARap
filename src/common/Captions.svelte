@@ -21,6 +21,13 @@
     [40.5, 40.65, 41.5, 41.7, 41.8, 42, 44],
     [44.4, 44.6, 45, 45.3, 45.6, 45.9, 46, 47],
     [47, 47.3, 47.6, 48, 48.5, 48.7, 49.2, 49.9, 50.0, 50.6],
+    [51, 51.1, 51.3, 51.4, 51.9, 52, 52.2, 52.3, 53],
+    [53.4, 53.5, 53.7, 53.8, 55],
+    [55.2, 55.3, 55.5, 55.6, 55.7, 55.9, 56.1, 56.7],
+    [57, 57.1, 57.3, 57.7, 57.9, 58.1, 58.5, 59, 59.5, 60],
+    [60, 60.3, 60.5, 61, 61.3, 61.5, 61.8],
+    [62, 62.2, 62.4, 62.6, 62.8, 63, 63.2],
+    [77.2, 77.3, 77.5, 78, 78.3, 78.4, 78.7, 80],
   ];
 
   const lines = [
@@ -41,7 +48,14 @@
     'who heads this agency, holding all responsibility',
     'and animosity against our greatest enemies?',
     'No phony, It\'s Mr. Paul M. Nakasone',
-    'Director of the NSA, child\'s play, have no dismay'
+    'Director of the NSA, child\'s play, have no dismay',
+    'The man has finesse. Chief of the CSS.',
+    'can dress and brand',
+    'hold his rank up in his hand.',
+    'He\'s the Commander of the U.S. Cyber Command',
+    'He can protect, he can plan',
+    'can give us what we demand',
+    'Ladies and gents, welcome to Signals Intelligence',
   ];
 
   const getIdxToShow = time => entryTimings.findIndex(timings => {
