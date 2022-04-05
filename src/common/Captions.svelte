@@ -28,6 +28,8 @@
     [60, 60.3, 60.5, 61, 61.3, 61.5, 61.8],
     [62, 62.2, 62.4, 62.6, 62.8, 63, 63.2],
     [77.2, 77.3, 77.5, 78, 78.3, 78.4, 78.7, 80],
+    [80, 81, 82],
+    [82, 82.2, 82.4, 82.6, 82.8, 83, 84.2],
   ];
 
   const lines = [
@@ -56,6 +58,8 @@
     'He can protect, he can plan',
     'can give us what we demand',
     'Ladies and gents, welcome to Signals Intelligence',
+    'Intercepting conversations',
+    'during all of the big events',
   ];
 
   const getIdxToShow = time => entryTimings.findIndex(timings => {
