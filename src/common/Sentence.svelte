@@ -32,7 +32,7 @@
   }
 
   .word {
-    font-size: 4rem;
+    font-size: 3.8rem;
     font-weight: 1000;
     -webkit-text-stroke: 2px white;
     color: red;

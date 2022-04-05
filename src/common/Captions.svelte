@@ -12,7 +12,15 @@
     [24, 24.2, 24.4, 24.6, 24.8, 25, 25.6],
     [25.8, 26.2, 26.5, 26.7, 27.1, 27.3],
     [27.4, 27.5, 30],
-    [30, 30.1, 30.2, 30.3, 30.7, 31.2, 31.5, 31.6, 40],
+    [30, 30.1, 30.2, 30.3, 30.7, 31.2, 31.5, 31.6, 32],
+    [32, 32.2, 32.4, 32.6, 33.4],
+    [33.4, 33.6, 33.8],
+    [34, 34.2, 34.4, 34.6, 34.8, 35, 35.2, 35.4],
+    [35.5, 35.8, 37.2],
+    [37.5, 37.6, 37.7, 37.8, 39.1, 39.2, 39.3, 40],
+    [40.5, 40.65, 41.5, 41.7, 41.8, 42, 44],
+    [44.4, 44.6, 45, 45.3, 45.6, 45.9, 46, 47],
+    [47, 47.3, 47.6, 48, 48.5, 48.7, 49.2, 49.9, 50.0, 50.6],
   ];
 
   const lines = [
@@ -26,6 +34,14 @@
     'Cipher decryption. Our operation? Moderation',
     'of communication',
     'That is our mission, to protect our nation,',
+    'we search through conversation,',
+    'find information',
+    'and bring it back to our station',
+    'preventing complication',
+    'who heads this agency, holding all responsibility',
+    'and animosity against our greatest enemies?',
+    'No phony, It\'s Mr. Paul M. Nakasone',
+    'Director of the NSA, child\'s play, have no dismay'
   ];
 
   const getIdxToShow = time => entryTimings.findIndex(timings => {
