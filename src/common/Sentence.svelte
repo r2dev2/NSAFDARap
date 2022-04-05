@@ -10,7 +10,7 @@
 
 <div class="sentence">
   {#each words as word, i}
-    <div class="word" class:hidden={$time < entryTimings[i]}>
+    <div class="word" class:hidden={$time + .2 < entryTimings[i]}>
       {word}
     </div>
   {/each}
@@ -33,6 +33,9 @@
 
   .word {
     font-size: 4rem;
-    transition: 200ms ease-out;
+    font-weight: 1000;
+    -webkit-text-stroke: 2px white;
+    color: red;
+    transition: transform 200ms ease-out;
   }
 </style>

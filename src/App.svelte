@@ -1,5 +1,6 @@
 <script>
   import { scenes } from './scenes';
+  import { Captions } from './common';
 
   let sceneIndex = 0;
 
@@ -13,6 +14,7 @@
 
 <main>
   <svelte:component this={scene.component} on:ended={() => sceneIndex++} />
+  <Captions />
 </main>
 
 <style>

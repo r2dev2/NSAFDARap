@@ -1,5 +1,10 @@
 <script>
   import { onMount } from 'svelte';
+  import { rapAudio } from '../store';
+
+  onMount(() => {
+    rapAudio.pause();
+  });
 </script>
 
 <div class="container">
