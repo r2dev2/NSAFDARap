@@ -7,6 +7,12 @@ import ItsNakasone from './ItsNakasone.svelte';
 import Verse1End from './Verse1End.svelte';
 import InterceptingConversations from './InterceptingConversations.svelte';
 import HowNSAPlay from './HowNSAPlay.svelte';
+import GiveToCIA from './GiveToCIA.svelte';
+import HandleTheMess from './HandleTheMess.svelte';
+import FindingCommunism from './FindingCommunism.svelte';
+import UseAlgo from './UseAlgo.svelte';
+import InfectMalware from './InfectMalware.svelte';
+import ItsNakasone2 from './ItsNakasone2.svelte';
 import End from './End.svelte';
 
 /** @type {{ name: string, component: typeof Beginning}} */
@@ -20,5 +26,11 @@ export const scenes = [
   { name: 'verse1-end', component: Verse1End },
   { name: 'intercepting-convos', component: InterceptingConversations },
   { name: 'how-nsa-play', component: HowNSAPlay },
+  { name: 'give-to-cia', component: GiveToCIA },
+  { name: 'handle-the-mess', component: HandleTheMess },
+  { name: 'finding-communism', component: FindingCommunism },
+  { name: 'use-algo', component: UseAlgo },
+  { name: 'infect-with-malware', component: InfectMalware },
+  { name: 'itsnakasone-2', component: ItsNakasone2 },
   { name: 'end', component: End }
 ];
