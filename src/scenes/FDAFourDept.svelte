@@ -5,7 +5,7 @@
   const dispatch = createEventDispatcher();
 
   $: if ($time > 204.3) {
-    // dispatch('ended');
+    dispatch('ended');
   }
 </script>
 
