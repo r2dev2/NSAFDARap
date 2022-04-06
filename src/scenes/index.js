@@ -6,6 +6,7 @@ import NatSecNakasoneHype from './NatSecNakasoneHype.svelte';
 import ItsNakasone from './ItsNakasone.svelte';
 import Verse1End from './Verse1End.svelte';
 import InterceptingConversations from './InterceptingConversations.svelte';
+import HowNSAPlay from './HowNSAPlay.svelte';
 import End from './End.svelte';
 
 /** @type {{ name: string, component: typeof Beginning}} */
@@ -18,5 +19,6 @@ export const scenes = [
   { name: 'itsnakasone', component: ItsNakasone },
   { name: 'verse1-end', component: Verse1End },
   { name: 'intercepting-convos', component: InterceptingConversations },
+  { name: 'how-nsa-play', component: HowNSAPlay },
   { name: 'end', component: End }
 ];

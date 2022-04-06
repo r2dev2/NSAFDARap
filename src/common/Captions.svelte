@@ -2,6 +2,11 @@
   import { time } from '../store';
   import Sentence from './Sentence.svelte';
 
+  const genGeneric = (start, amount, end) => Array(amount)
+    .fill(start)
+    .map((s, i) => s + i / 10)
+    .concat([end]);
+
   const entryTimings = [
     [12.5],
     [13, 13.3, 13.6, 14.2, 14.5],
@@ -29,7 +34,16 @@
     [62, 62.2, 62.4, 62.6, 62.8, 63, 63.2],
     [77.2, 77.3, 77.5, 78, 78.3, 78.4, 78.7, 80],
     [80, 81, 82],
-    [82, 82.2, 82.4, 82.6, 82.8, 83, 84.2],
+    [82, 82.2, 82.4, 82.6, 82.8, 83, 84.2, 84.3, 84.5],
+    [84.6, 84.7, 84.8, 84.9, 85, 85.2, 85.4],
+    [85.5, 86, 86.3, 86.4, 86.8],
+    [87, 87.2, 87.5, 87.6, 88, 88.2],
+    [88.5, 88.6, 88.7, 88.8, 88.9, 91],
+    [91.2, 91.3, 91.4, 91.5, 91.6, 92.9],
+    [93, 93.1, 93.2, 93.4, 94.6],
+    [94.7, 94.8, 94.9, 95.8, 95.9, 96, 96.1, 96.2, 96.3, 98],
+    [98.2, 98.3, 98.4, 98.5, 98.6, 98.7, 98.8, 98.9, 101],
+    [101.1, 101.2, ...genGeneric(102, 8, 105)],
   ];
 
   const lines = [
@@ -59,7 +73,16 @@
     'can give us what we demand',
     'Ladies and gents, welcome to Signals Intelligence',
     'Intercepting conversations',
-    'during all of the big events',
+    'during all of the big events, with precedence',
+    'starting with the big Mr. President',
+    'Collecting data to protect',
+    'is all that we represent',
+    'moving on to information assurance',
+    'don\'t fall behind the current,',
+    'show us your endurance',
+    'spend the day, analyze the data in the USA',
+    'both these departments are found in the NSA',
+    'one question, what do we do, how do we play',
   ];
 
   const getIdxToShow = time => entryTimings.findIndex(timings => {
