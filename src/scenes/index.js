@@ -13,6 +13,14 @@ import FindingCommunism from './FindingCommunism.svelte';
 import UseAlgo from './UseAlgo.svelte';
 import InfectMalware from './InfectMalware.svelte';
 import ItsNakasone2 from './ItsNakasone2.svelte';
+import FDAIntro from './FDAIntro.svelte';
+import HistoryVein from './HistoryVein.svelte';
+import FDAGoal from './FDAGoal.svelte';
+import Whiff from './Whiff.svelte';
+import FDAFourDept from './FDAFourDept.svelte';
+import Seizure from './Seizure.svelte';
+import FDAWrapUp from './FDAWrapUp.svelte';
+import Ending from './Ending.svelte';
 import End from './End.svelte';
 
 /** @type {{ name: string, component: typeof Beginning}} */
@@ -32,5 +40,13 @@ export const scenes = [
   { name: 'use-algo', component: UseAlgo },
   { name: 'infect-with-malware', component: InfectMalware },
   { name: 'itsnakasone-2', component: ItsNakasone2 },
+  { name: 'fda-intro', component: FDAIntro },
+  { name: 'history-vein', component: HistoryVein },
+  { name: 'fda-goal', component: FDAGoal },
+  { name: 'whiff', component: Whiff },
+  { name: 'fda-four-dept', component: FDAFourDept },
+  { name: 'fda-seizures', component: Seizure },
+  { name: 'fda-wrapup', component: FDAWrapUp },
+  { name: 'ending', component: Ending },
   { name: 'end', component: End }
 ];
